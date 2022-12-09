@@ -1,0 +1,20 @@
+.Education{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    width: 100vw;
+}
+
+
+.Degree>h3{
+    font-size: 3rem;
+}   
+
+.Degree>h6{
+    font-size: 1.5rem;
+}
+
+.Degree>p{
+    font-size: 1.2rem;
+}   

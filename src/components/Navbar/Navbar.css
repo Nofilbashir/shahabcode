@@ -1,0 +1,40 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    background-color:var(--primary_color);
+    color: var(--background_color);
+    padding: 0rem 5rem;
+    width: 100vw;
+
+}
+.Intro_div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.image_conatiner{
+    display: flex;
+    align-items: center;
+    width: 2rem;
+    object-fit: cover;
+}
+.Navbar_heading{
+    font-size: 2rem;
+}
+
+.Navbar_heading:hover{
+    color:var(--hover)
+}
+
+.Navbar_list{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.Navbar_list>li:hover{
+color:var(--hover)
+
+}

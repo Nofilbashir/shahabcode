@@ -1,0 +1,39 @@
+.Header{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100vw;
+    height: 90vh;
+
+}
+.image_container{
+    width: 25vw;
+    height: 25vw;
+    border: 0.7rem solid var(--primary_color);
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all linear 0.5s;
+
+}
+.image_container:hover{
+    width: 25vw;
+    height: 25vw;
+    border: 0.7rem solid var(--hover);
+    border-radius: 5rem;
+    overflow:hidden;
+}
+
+.Header_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 25%;
+    
+}
+.Header_info>p{
+    text-align: center;
+}
