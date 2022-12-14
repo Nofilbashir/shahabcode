@@ -3,6 +3,8 @@ import './Header.css'
 import CV from '../../assets/shahab.pdf'
 
 const Header = () => {
+
+
   return (
     <div className='Header'>
       <div className='image_container'>
@@ -13,8 +15,8 @@ const Header = () => {
         <h1>I am Shahab</h1>
         <p>Web Developer & Data Analyst. I love to deliver clean code solutions for interactive web applications.</p>
         <a href={CV} className='btn' download={true}>Download Resume</a>
-      </div>
 
+      </div>
     </div>
   )
 }

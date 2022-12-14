@@ -7,11 +7,20 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import './index.css'
-
+import { useState } from 'react';
+import MobNav from './components/MobNav/MobileNav';
 export const App = () => {
+
+  const [width, setWidth] = useState(window.innerWidth)
+  window.addEventListener('resize',()=>{
+    setWidth(window.innerWidth)
+  })
+
+  console.log(width)
+
   return (
     <div className='app'>
-    <Navbar/>
+    {width>600?<Navbar/>:<MobNav/>}
     <Header/>
     <Education/>
     <Skills/>
