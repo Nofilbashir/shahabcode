@@ -16,6 +16,8 @@
     --background_color:#F5EDDC;
     --text_color:white;
     --hover:#CFD2CF;
+    --black:var(--primary_color);
+    --white:white;  
 }
 img{
     width: 100%;
